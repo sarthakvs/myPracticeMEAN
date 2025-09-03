@@ -1,0 +1,159 @@
+Basic functionalities:
+1. Student Management System
+
+Create a student management system where you can store student records (name, roll number, department).
+
+Backend:
+
+API to add new student
+
+API to get all students
+
+Frontend (Angular):
+
+Display all students in a table with pagination
+
+A form to add new students with validations (name required, roll number must be unique)
+
+2. Online Grocery Store
+
+Develop an application to manage grocery products.
+
+MongoDB: Collection products with fields: name, category, price.
+
+Express.js:
+
+POST /addProduct to add a product
+
+GET /products to fetch all products
+
+Angular:
+
+Show products in a table
+
+Filter products by category (dropdown)
+
+Form to add a new product
+
+3. Event Registration Portal
+
+Build a system where users can register for events.
+
+MongoDB: Collection registrations with fields: username, eventName, date.
+
+Express.js: API to register a user and list all registrations.
+
+Angular:
+
+Registration form with validations (event name required, date must be future date)
+
+Display registered users in a table
+
+4. Employee Leave Tracker
+
+Create a leave tracking system for employees.
+
+MongoDB: leaves collection with fields: employeeName, leaveType, startDate, endDate.
+
+Express.js:
+
+Add a leave request
+
+Get all leave requests
+
+Angular:
+
+Show leave records in a table
+
+Form with validations (endDate > startDate)
+
+5. Online Movie Review System
+
+Develop a simple movie review app.
+
+MongoDB: reviews collection with fields: username, movieName, rating, comment.
+
+Express.js: API to add review & fetch reviews.
+
+Angular:
+
+Form with required rating (1–5)
+
+Show all reviews in a table with average rating calculation
+
+6. Task Manager Application
+
+Create a task manager where users can add tasks.
+
+MongoDB: tasks collection (taskName, priority, status).
+
+Express.js: API to add task & list tasks.
+
+Angular:
+
+Form to add tasks (priority = dropdown [High, Medium, Low])
+
+Display tasks in a table with filtering by status
+
+
+
+Adding more functionalities: 
+Q1. There is a student database where you can store students with roll number, name, and marks.
+Create an API to show all students and another API to add a new student.
+Use Angular to display the data in tabular format and provide a form with a button to add a new student.
+
+Q2. Create a task manager application where tasks have a title and status (Pending/Completed).
+Build APIs to:
+
+Add a new task
+
+Get all tasks
+
+Update task status
+On Angular, display tasks in a table with a dropdown or button to change status.
+
+Q3. Design an employee management system where employees have an ID, name, and department.
+Create APIs to:
+
+Fetch all employees
+
+Add a new employee
+
+Delete an employee
+On Angular, show employees in a table and provide a form to add new employees, along with a delete button.
+
+Q4. Build a product inventory system where products have a name, price, and stock quantity.
+Create APIs to:
+
+List all products
+
+Add a product
+
+Update stock quantity
+Use Angular to display products in a table and provide a form to add new products. Add an "Update Stock" button beside each product.
+
+Q5. Create a login system where a user enters email and password.
+Create an API to validate login details from the database.
+In Angular, provide a login form with input fields for email and password. On successful login, display a "Welcome" message.
+
+Q6. Create a feedback collection system where feedback contains name, email, and message.
+APIs required:
+
+Add feedback
+
+Get all feedback
+Angular UI should:
+
+Show feedback in a table
+
+Provide a form to submit new feedback.
+
+Q7. Build a simple notes application where each note has a title and description.
+Create APIs to:
+
+Add a note
+
+Get all notes
+
+Delete a note
+Angular should show notes in a list/table and provide a form to add notes. Add a delete button next to each note.
