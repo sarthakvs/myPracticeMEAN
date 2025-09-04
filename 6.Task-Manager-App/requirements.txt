@@ -1,0 +1,14 @@
+Basic:
+6. Task Manager Application
+
+Create a task manager where users can add tasks.
+
+MongoDB: tasks collection (taskName, priority, status).
+
+Express.js: API to add task & list tasks.
+
+Angular:
+
+Form to add tasks (priority = dropdown [High, Medium, Low])
+
+Display tasks in a table with filtering by status

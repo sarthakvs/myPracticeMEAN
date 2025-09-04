@@ -1,0 +1,17 @@
+<h2>All Tasks</h2>
+<table border="1">
+    <thead>
+        <th> Task ID </th>
+        <th> Task Name </th>
+        <th> Task Priority </th>
+        <th> Task Status </th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let task of tasksData;let i=index;">
+            <td>{{i+1}}</td>
+            <td>{{task.taskName}}</td>
+            <td>{{task.taskPriority}}</td>
+            <td>{{task.taskStatus?"Done":"Pending"}}</td>
+        </tr>
+    </tbody>
+</table>

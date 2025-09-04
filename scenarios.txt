@@ -81,7 +81,7 @@ Form with required rating (1–5)
 
 Show all reviews in a table with average rating calculation
 
-6. Task Manager Application
+6. Task Manager Application (Done)
 
 Create a task manager where users can add tasks.
 
