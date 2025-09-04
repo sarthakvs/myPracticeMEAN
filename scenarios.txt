@@ -1,3 +1,8 @@
+Note: This repository is only made for educational purposes (Practise). Any resemblence to actual questions that might have been asked  in the past or can be asked in the future is purely coincidental.
+I have not covered any css and each of these application's implementation has zero to no css
+Preparation for that should be done seperately 
+Also some of the implementation of the topics mentioned in this document has been advanced further to try new things which may or may not be within the scope of the syllabus.
+
 Basic functionalities:
 1. Student Management System
 

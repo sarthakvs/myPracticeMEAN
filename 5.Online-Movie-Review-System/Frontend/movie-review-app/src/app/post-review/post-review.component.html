@@ -1,0 +1,24 @@
+<form #formdata="ngForm" (ngSubmit)="add(formdata.value)">
+    <table border="1">
+        <caption>Add your Review!</caption>
+        <tr>
+            <td>Your Username: </td>
+            <td><input type="text" name="ruser" ngModel></td>
+        </tr>
+        <tr>
+            <td>Movie Name: </td>
+            <td><input type="text" name="rmovie" ngModel></td>
+        </tr>
+        <tr>
+            <td>Rating: </td>
+            <td><input type="number" name="rrating" min="1" max="5" ngModel></td>
+        </tr>
+        <tr>
+            <td>Your Review: </td>
+            <td><input type="text" name="rcomment" ngModel></td>
+        </tr>
+        <tr>
+            <td><button>Add Review!</button></td>
+        </tr>
+    </table>
+</form>

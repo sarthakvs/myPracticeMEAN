@@ -1,0 +1,15 @@
+<h2>All Movies and their ratings</h2>
+<table border="1">
+    <thead>
+        <th>#</th>
+        <th>Movie Name</th>
+        <th>Average Rating</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let movie of moviesData;let i=index">
+            <td>{{i+1}}</td>
+            <td><a [routerLink]="['/displayReviews',movie._id]">{{movie._id}}</a></td>
+            <td>{{movie.avgRating}}</td>
+        </tr>
+    </tbody>
+</table>

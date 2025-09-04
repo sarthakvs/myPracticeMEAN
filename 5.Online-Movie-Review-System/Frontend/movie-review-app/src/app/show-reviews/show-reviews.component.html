@@ -1,0 +1,19 @@
+<h2>All Reviews</h2>
+<table border="1">
+    <thead>
+        <th>ID</th>
+        <th>Username</th>
+        <th>Movie Name</th> 
+        <th>Review</th>
+        <th>Rating</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let r of reviewsData;let i=index;">
+            <td>{{i+1}}</td>
+            <td>{{r.username}}</td>
+            <td><a [routerLink]="['/displayReviews',r.movieName]">{{r.movieName}}</a></td>
+            <td>{{r.comment}}</td>
+            <td>{{r.rating}}</td>
+        </tr>
+    </tbody>
+</table>
