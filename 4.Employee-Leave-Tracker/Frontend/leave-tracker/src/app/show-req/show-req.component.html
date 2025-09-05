@@ -1,0 +1,19 @@
+<h2>All Requests</h2>
+<table border="1" cellPadding="10">
+    <thead>
+        <th>#</th>
+        <th>Employee Name</th>
+        <th>Leave Type</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+    </thead>
+    <tbody >
+        <tr *ngFor="let l of reqData;let i=index">
+            <td>{{i+1}}</td>
+            <td>{{l.employeeName}}</td>
+            <td>{{l.leaveType}}</td>
+            <td>{{l.startDate | date:'dd-MM-yyyy'}}</td>
+            <td>{{l.endDate | date:'dd-MM-yyyy'}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,26 @@
+4. Employee Leave Tracker
+
+Create a leave tracking system for employees.
+
+MongoDB: leaves collection with fields: employeeName, leaveType, startDate, endDate.
+
+Express.js:
+
+Add a leave request
+
+Get all leave requests
+
+Routes for backend:
+    http://localhost:3000/allRequests -- Get all requests
+    http://localhost:3000/addRequest -- Post a request
+
+Angular:
+
+Show leave records in a table 
+
+Form with validations (endDate > startDate)
+
+Routes for frontend :
+    http://localhost:4200/showRequests -- Display all requests
+    http://localhost:4200/submitRequest -- Submit a requests
+

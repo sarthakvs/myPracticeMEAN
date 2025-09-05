@@ -54,7 +54,7 @@ Registration form with validations (event name required, date must be future dat
 
 Display registered users in a table
 
-4. Employee Leave Tracker
+4. Employee Leave Tracker (Done)
 
 Create a leave tracking system for employees.
 
@@ -72,7 +72,7 @@ Show leave records in a table
 
 Form with validations (endDate > startDate)
 
-5. Online Movie Review System
+5. Online Movie Review System (Done)
 
 Develop a simple movie review app.
 

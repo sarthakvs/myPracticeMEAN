@@ -1,0 +1,31 @@
+<h2>Submit your Leave Request here!</h2>
+<form #formdata="ngForm" (ngSubmit)="post(formdata.value)"> 
+    <table border="1" cellPadding="10">
+        <tr>
+            <td>Employee Name: </td>
+            <td><input type="text" name="ename" ngModel required></td>
+        </tr>
+        <tr>
+            <td>Leave Type : </td>
+            <td>
+                <select name="ltype" ngModel>
+                    <option value="Sick Leave">Sick Leave</option>
+                    <option value="Casual Leave">Casual Leave</option>
+                    <option value="Earned Leave">Earned Leave</option>
+                    <option value="Maternity Leave">Maternity Leave</option>
+                    <option value="Paternity Leave">Paternity Leave</option>
+                    <option value="Unpaid Leave">Unpaid Leave</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Leave Start Date: </td>
+            <td><input type="date" name="sdate" ngModel required></td>
+        </tr>
+        <tr>
+            <td>Leave End Date: </td>
+            <td><input type="date" name="edate" ngModel required></td>
+        </tr>
+        <tr><button align="center">Submit Request!</button></tr>
+    </table>
+</form>
