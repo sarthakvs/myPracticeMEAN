@@ -1,0 +1,20 @@
+<h2>Register for a event!</h2>
+<form #formdata = "ngForm" (ngSubmit)="register(formdata.value)">
+    <table border="1" cellPadding ="10">
+        <tr>
+            <td>Username</td>
+            <td><input type="text" name="uname" ngModel required></td>
+        </tr>
+        <tr>
+            <td>Event Name</td>
+            <td><input type="text" name="ename" ngModel required></td>
+        </tr>
+        <tr>
+            <td>Event Date</td>
+            <td><input type="date" name="edate" ngModel required></td>
+        </tr>
+        <tr>
+            <button>Register!</button>
+        </tr>
+    </table>
+</form>

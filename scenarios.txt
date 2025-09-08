@@ -40,7 +40,7 @@ Filter products by category (dropdown)
 
 Form to add a new product
 
-3. Event Registration Portal
+3. Event Registration Portal (Done)
 
 Build a system where users can register for events.
 

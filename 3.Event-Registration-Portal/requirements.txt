@@ -1,0 +1,25 @@
+3. Event Registration Portal
+
+Build a system where users can register for events.
+
+MongoDB: Collection registrations with fields: username, eventName, date.
+db fields name:
+    username,
+    eventName,
+    eventDate
+Express.js: API to register a user and list all registrations.
+    Routes:
+    POST - '/postEvent'
+    GET - '/getEvents'
+Angular:
+
+Registration form with validations (event name required, date must be future date)
+form fields name:
+    uname,
+    ename,
+    edate
+Display registered users in a table
+
+    Routes:
+    POST - '/registerEvent'
+    GET - '/allEvents

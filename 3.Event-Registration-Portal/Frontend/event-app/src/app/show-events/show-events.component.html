@@ -1,0 +1,17 @@
+<h2>All Event Registrations</h2>
+<table border="1" cellPadding="10">
+    <thead>
+        <th>#</th>
+        <th>Username</th>
+        <th>Event Name</th>
+        <th>Event Date</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let e of eventData;let i=index;">
+            <td>{{i+1}}</td>
+            <td>{{e.username}}</td>
+            <td>{{e.eventName}}</td>
+            <td>{{e.eventDate | date:'dd-MM-yyyy'}}</td>
+        </tr>
+    </tbody>
+</table>
