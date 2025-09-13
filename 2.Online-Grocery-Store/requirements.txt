@@ -1,0 +1,20 @@
+
+2. Online Grocery Store
+
+Develop an application to manage grocery products.
+
+MongoDB: Collection products with fields: name, category, price.
+
+Express.js:
+
+POST /addProduct to add a product
+
+GET /products to fetch all products
+
+Angular:
+
+Show products in a table
+
+Filter products by category (dropdown)
+
+Form to add a new product

@@ -1,0 +1,21 @@
+<div style="display:flex;gap:10px;padding:20px">
+    <p>Show by Category: </p> 
+<select [(ngModel)]="selectedCat" (change)="catChange()">
+  <option value="">All Categories</option>
+  <option *ngFor="let c of categories" [value]="c">{{c}}</option>
+</select>
+</div>
+<table border="1">
+    <thead>
+        <td>#</td>
+        <td>Name</td>
+        <td>Category</td>  
+        <td>Price</td>
+    </thead>
+    <tbody *ngFor="let p of filteredData;let i=index;">
+        <td>{{i+1}}</td>
+        <td>{{p.productName}}</td>
+        <td>{{p.productCategory}}</td>
+        <td>{{p.price}}</td>
+    </tbody>
+</table>
