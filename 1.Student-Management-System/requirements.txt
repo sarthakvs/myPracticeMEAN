@@ -1,0 +1,18 @@
+1. Student Management System
+
+Create a student management system where you can store student records (name, roll number, department).
+_id:Roll number
+studentName:
+studentDepartment:
+
+Backend:
+
+API to add new student /postStudent
+
+API to get all students /getStudent
+
+Frontend (Angular):
+
+Display all students in a table with pagination
+
+A form to add new students with validations (name required, roll number must be unique)

@@ -1,0 +1,24 @@
+<h2>Student Records</h2>
+
+<table border="1" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Roll Number</th>
+      <th>Name</th>
+      <th>Department</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let s of paginatedData">
+      <td>{{ s._id }}</td>
+      <td>{{ s.studentName }}</td>
+      <td>{{ s.studentDepartment }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="margin-top:10px; text-align:center;">
+  <button (click)="setPage(currPage-1)" [disabled]="currPage===1">Prev</button>
+  <span> Page {{currPage}} of {{ totalPages}} </span>
+  <button (click)="setPage(currPage+1)" [disabled]="currPage===totalPages">Next</button>
+</div>

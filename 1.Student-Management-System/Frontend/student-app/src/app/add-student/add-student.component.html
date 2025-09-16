@@ -1,0 +1,25 @@
+<form #formdata = "ngForm" (ngSubmit)="add(formdata.value)">
+    <table [border]="2" [cellPadding]="10">
+        <tr>
+            <td> Roll No. </td>
+            <td><input type="Number" name="srollno" ngModel required></td>
+        </tr>
+        <tr>
+            <td>Name: </td>
+            <td><input type="text" name="sname" ngModel required></td>
+        </tr>
+        <tr>
+            <td> Department: </td>
+            <td>
+                <select name="sdepartment" ngModel>
+                    <option *ngFor="let c of departments" [value]="c">{{c}}</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button>Submit!</button>
+            </td>
+        </tr>
+    </table>
+</form>
